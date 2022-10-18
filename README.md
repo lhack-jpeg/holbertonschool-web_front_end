@@ -1,3 +1,2 @@
-# web_front_end
-
+# Holberton Front End Web Development
 # By Luke Hackett
