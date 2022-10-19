@@ -6,12 +6,8 @@ html {
   --color-main: #161616;
   --color-secondary: #D73953;
 }
-body {
-  color: var(--color-main);
-}
-
-a {
-  color: var(--color-main);
+body, a {
+  color: #161616;
 }
 
 .visually-hidden{
@@ -19,6 +15,6 @@ a {
 }
 
 .card-category, .section-tagline{
-  color: var(--color-secondary);
+  color: #D73953;
 }
 
