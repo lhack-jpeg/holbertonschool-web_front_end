@@ -24,7 +24,7 @@ html {
   --line-height-big: 1.8;
   --section-header-align: center;
   --section-tagline-transform: uppercase;
-  --section-title-magin: 0;
+  --section-title-margin: 0;
   --section-title-color: var(--color-black);
 }
 
@@ -62,7 +62,7 @@ a {
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
   font-weight: var(--font-weight-bold);
-  margin: var(--section-title-magin);
+  margin: var(--section-title-margin);
   color: var(--section-title-color);
 }
 
