@@ -2,12 +2,16 @@ html {
     scroll-behavior: smooth;
   }
 
+:root{
+  --color-main: #161616;
+  --color-secondary: #D73953;
+}
 body {
-  background-color:#161616;
+  color: var(--color-main);
 }
 
 a {
-  background-color: #161616;
+  color: var(--color-main);
 }
 
 .visually-hidden{
@@ -15,6 +19,6 @@ a {
 }
 
 .card-category, .section-tagline{
-  background-color: #D73953;
+  color: var(--color-secondary);
 }
 
