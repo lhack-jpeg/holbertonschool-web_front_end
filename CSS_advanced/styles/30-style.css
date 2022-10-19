@@ -478,7 +478,7 @@ ul.row{
 }
 
 .card-work .card-outer{
-  position: hideen;
+  position: relative;
   overflow: hidden;
 }
 
@@ -493,7 +493,7 @@ ul.row{
   position: absolute;
   top: -0.1rem;
   left: -0.1rem;
-  right: 0.1rem;
+  right: -0.1rem;
   z-index: 1;
 }
 
@@ -523,7 +523,8 @@ ul.row{
   top: 0;
   left: 0;
   right: 0;
-  contain: "";
+  bottom: 0;
+  content: "";
 }
 
 .footer-copyright{
